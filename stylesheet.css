@@ -1,7 +1,14 @@
+body{
+    background-color: #3a3a3e;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #050505 12%, transparent 12.5%, transparent 87%, #050505 87.5%, #050505), linear-gradient(150deg, #050505 12%, transparent 12.5%, transparent 87%, #050505 87.5%, #050505), linear-gradient(30deg, #050505 12%, transparent 12.5%, transparent 87%, #050505 87.5%, #050505), linear-gradient(150deg, #050505 12%, transparent 12.5%, transparent 87%, #050505 87.5%, #050505), linear-gradient(60deg, #05050577 25%, transparent 25.5%, transparent 75%, #05050577 75%, #05050577), linear-gradient(60deg, #05050577 25%, transparent 25.5%, transparent 75%, #05050577 75%, #05050577);
+    background-size: 18px 32px;
+    background-position: 0 0, 0 0, 9px 16px, 9px 16px, 0 0, 9px 16px;
+}
 .calculator{
     text-align: center;
     margin: 0 auto;
-    padding-top: 100px;
+    padding:100px;
     width: 400px;
 }
 .screen{
